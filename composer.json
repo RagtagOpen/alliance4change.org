@@ -27,7 +27,7 @@
     "roots/wp-password-bcrypt": "^1.0.0",
     "wpackagist-plugin/nginx-helper": "^1.9.10",
     "wpackagist-plugin/minimum-viable-sharing-meta": "^0.0.4",
-    "wpackagist-plugin/wp-mail-smtp": "^1.2",
+    "wpackagist-plugin/wp-amazon-ses-smtp": "^1.0.0",
     "wpackagist-plugin/akismet": "^4.0",
     "wpackagist-plugin/jetpack": "^6.0",
     "wpackagist-plugin/wordfence": "^6.3.22",
@@ -41,7 +41,7 @@
   },
   "extra": {
     "installer-paths": {
-      "web/app/mu-plugins/{$name}/": ["wpackagist-plugin/wordfence", "wpackagist-plugin/nginx-helper", "wpackagist-plugin/wp-mail-smtp", "humanmade/s3-uploads"],
+      "web/app/mu-plugins/{$name}/": ["wpackagist-plugin/wordfence", "wpackagist-plugin/nginx-helper", "wpackagist-plugin/wp-amazon-ses-smtp", "humanmade/s3-uploads"],
       "web/app/themes/{$name}/": ["type:wordpress-theme"],
       "web/app/plugins/{$name}/": ["wpackagist-plugin/minimum-viable-sharing-meta"]
     },
