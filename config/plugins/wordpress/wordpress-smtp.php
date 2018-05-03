@@ -3,17 +3,6 @@
  * Configuration - Plugin: SMTP Mail
  * @url: https://wordpress.org/plugins/wp-mail-smtp/
  */
-if (!empty(getenv('WPMS_SMTP_PASS'))) {
-    $val = getenv('WPMS_SMTP_PASS');
-    if($val === 'true'):
-      $val = true;
-    elseif($val === 'false'):
-      $val = false;
-    endif;
-    define('WPMS_SMTP_PASS', $val);
-    define('WPMS_ON', true);
-}
-
 $wpms_settings = array(
   'WPMS_MAIL_FROM',
   'WPMS_MAIL_FROM_NAME',
@@ -31,7 +20,13 @@ $wpms_on = false;
 
 foreach ($wpms_settings as $setting):
   if (!empty(getenv($setting))) {
-      define($setting, getenv($setting));
+      $val = getenv($setting);
+      if($val === 'true'):
+        $val = true;
+      elseif($val === 'false'):
+        $val = false;
+      endif;
+      define($setting, $val);
       $wpms_on = true;
   }
 endforeach;

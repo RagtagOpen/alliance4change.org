@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "f1935c14f9f6c0f109f89fe38bf6066b",
+    "content-hash": "398187923a96b3078338b25045977774",
     "packages": [
         {
             "name": "aws/aws-sdk-php",
@@ -4139,16 +4139,16 @@
             "homepage": "https://wordpress.org/plugins/wordfence/"
         },
         {
-            "name": "wpackagist-plugin/wp-amazon-ses-smtp",
-            "version": "1.0.3",
+            "name": "wpackagist-plugin/wp-ses",
+            "version": "0.8",
             "source": {
                 "type": "svn",
-                "url": "https://plugins.svn.wordpress.org/wp-amazon-ses-smtp/",
-                "reference": "tags/1.0.3"
+                "url": "https://plugins.svn.wordpress.org/wp-ses/",
+                "reference": "trunk"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/wp-amazon-ses-smtp.1.0.3.zip",
+                "url": "https://downloads.wordpress.org/plugin/wp-ses.zip?timestamp=1514474597",
                 "reference": null,
                 "shasum": null
             },
@@ -4156,7 +4156,7 @@
                 "composer/installers": "~1.0"
             },
             "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/wp-amazon-ses-smtp/"
+            "homepage": "https://wordpress.org/plugins/wp-ses/"
         }
     ],
     "packages-dev": [
@@ -4203,6 +4203,26 @@
                 "php"
             ],
             "time": "2018-04-26T13:18:31+00:00"
+        },
+        {
+            "name": "wpackagist-plugin/wp-amazon-ses-smtp",
+            "version": "1.0.3",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/wp-amazon-ses-smtp/",
+                "reference": "tags/1.0.3"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/wp-amazon-ses-smtp.1.0.3.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/wp-amazon-ses-smtp/"
         },
         {
             "name": "wpackagist-plugin/wp-mail-smtp",
