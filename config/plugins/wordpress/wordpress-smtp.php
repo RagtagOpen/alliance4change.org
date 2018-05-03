@@ -4,7 +4,13 @@
  * @url: https://wordpress.org/plugins/wp-mail-smtp/
  */
 if (!empty(getenv('WPMS_SMTP_PASS'))) {
-    define('WPMS_SMTP_PASS', getenv('WPMS_SMTP_PASS'));
+    $val = getenv('WPMS_SMTP_PASS');
+    if($val === 'true'):
+      $val = true;
+    elseif($val === 'false'):
+      $val = false;
+    endif;
+    define('WPMS_SMTP_PASS', );
     define('WPMS_ON', true);
 }
 
