@@ -10,7 +10,7 @@ if (!empty(getenv('WPMS_SMTP_PASS'))) {
     elseif($val === 'false'):
       $val = false;
     endif;
-    define('WPMS_SMTP_PASS', );
+    define('WPMS_SMTP_PASS', $val);
     define('WPMS_ON', true);
 }
 
