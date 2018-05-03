@@ -1,0 +1,45 @@
+{
+  "name": "ragtagopen/alliance4change.org",
+  "description": "WordPress site for alliance4change.org",
+  "config": {
+    "preferred-install": "dist",
+    "platform": {
+      "php": "7.0",
+      "ext-gettext": "1.0"
+    }
+  },
+  "repositories": [
+    {
+      "type": "composer",
+      "url": "https://wpackagist.org"
+    }
+  ],
+  "minimum-stability": "stable",
+  "require": {
+    "php": ">=7.0",
+    "ext-gettext": "*",
+    "composer/installers": "^1.5.0",
+    "johnpbloch/wordpress": "^4.9.5",
+    "roots/wp-password-bcrypt": "^1.0.0",
+    "wpackagist-plugin/nginx-helper": "^1.9.10",
+    "wpackagist-plugin/minimum-viable-sharing-meta": "^0.0.4",
+    "wpackagist-plugin/wp-mail-smtp": "^1.2",
+    "wpackagist-plugin/akismet": "^4.0",
+    "wpackagist-plugin/jetpack": "^6.0",
+    "wpackagist-plugin/wordfence": "^6.3.22",
+    "humanmade/s3-uploads": "^2.0.0"
+  },
+  "require-dev": {
+    "heroku/heroku-buildpack-php": "*"
+  },
+  "extra": {
+    "installer-paths": {
+      "web/app/mu-plugins/{$name}/": ["wpackagist-plugin/wordfence", "wpackagist-plugin/nginx-helper", "wpackagist-plugin/wp-mail-smtp", "humanmade/s3-uploads"],
+      "web/app/themes/{$name}/": ["type:wordpress-theme"]
+    },
+    "dropin-paths": {
+      "web/app": ["package:wpackagist-plugin/redis-cache:includes/object-cache.php", "package:frc/batcache:advanced-cache.php"]
+    },
+    "wordpress-install-dir": "web/wp"
+  }
+}
