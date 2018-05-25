@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "04c570ca2a311923f2fb56a6359cd9e3",
+    "content-hash": "ec6f6202573d11d08b448e3ee9f7f636",
     "packages": [
         {
             "name": "aws/aws-sdk-php",
@@ -4167,6 +4167,46 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/akismet/"
+        },
+        {
+            "name": "wpackagist-plugin/disable-comments",
+            "version": "1.7.1",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/disable-comments/",
+                "reference": "tags/1.7.1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/disable-comments.1.7.1.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/disable-comments/"
+        },
+        {
+            "name": "wpackagist-plugin/donation-button",
+            "version": "2.0.1",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/donation-button/",
+                "reference": "tags/2.0.1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/donation-button.2.0.1.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/donation-button/"
         },
         {
             "name": "wpackagist-plugin/jetpack",
