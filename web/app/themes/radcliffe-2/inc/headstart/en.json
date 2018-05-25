@@ -1,0 +1,155 @@
+{
+    "settings": {
+        "options": {
+            "show_on_front": "page",
+            "featured-content": false,
+            "jetpack_content_post_details_categories": false,
+            "default_comment_status": "closed"
+        },
+        "theme_mods": {
+            "0": false,
+            "custom_css_post_id": -1,
+            "nav_menu_locations": {
+                "menu-1": "primary",
+                "jetpack-social-menu": "social-media"
+            },
+            "background_color": "ffffff",
+            "colors_manager": {
+                "colors": {
+                    "bg": "#ffffff",
+                    "txt": "",
+                    "link": "#ca2017"
+                },
+                "cached": false
+            },
+            "radcliffe_2_contact_info_location": "header",
+            "radcliffe_2_contact_info_hours": "Mon - Fri: 8am - 6pm",
+            "radcliffe_2_hero_area_display": true,
+            "radcliffe_2_hero_area_content": "We are here to serve your needs. And if you’d like to learn more, let’s get started.",
+            "radcliffe_2_hero_area_background": "https:\/\/headstartdata.files.wordpress.com\/2017\/09\/were-open-sign.jpg",
+            "radcliffe_2_contact_info_address": "1 Lamp Post Lane, Narnia",
+            "header_image": "remove-header",
+            "radcliffe_2_hero_area_button_url": "\/blog",
+            "radcliffe_2_hero_area_title": "Are you ready for more?",
+            "radcliffe_2_hero_area_button_text": "I’m Ready",
+            "radcliffe_2_contact_info_phone": "+1 555-555-555",
+            "radcliffe_2_contact_info_email": "contact@mydomain.com",
+            "active_style_pack": "default",
+            "custom_logo": "",
+            "logo_size": 20,
+            "radcliffe_2_hero_overlay_opacity": 40
+        },
+        "headstart": {
+            "mapped_id_options": [],
+            "mapped_id_theme_mods": [],
+            "keep_submenu_items": true
+        }
+    },
+    "content": [
+        {
+            "post_title": "First blog post",
+            "post_content": "<p>A blog is one of the oldest ways to participate on the Internet, and it is one of the <a href=\"https://www.youtube.com/watch?v=uNbS4pv3zJw\">foundations</a> of a WordPress website. Here on WordPress.com you can change your blog to be named \"News\" or \"Updates\" instead — it's up to you.<\/p><p>Also, you can remove the blog feature from your website at any time, but a blog makes your site get noticed by search engines. To learn about <em>easy-blogging,<\/em> get eight tips <a href=\"https:\/\/dailypost.wordpress.com\/2016\/11\/03\/sustainable-blogging\/\">here<\/a> from WordPress expert Andrea Badgley.<\/p><p>For a starter guide to WordPress.com and to learn more about this theme go to:<\/p><p style=\"text-align:center;\"><a href=\"https:\/\/learn.wordpress.com\/the-movie\">https:\/\/learn.wordpress.com\/the-movie<\/a><\/p><p>You’re now ready to make the text on this blog post your own. Open the post editor by clicking on the <strong>‘Edit’<\/strong> button 👇below to change the text in this post.</p>",
+            "post_excerpt": "This is the excerpt for your very first post.",
+            "post_status": "publish",
+            "comment_status": "open",
+            "ping_status": "open",
+            "post_type": "post",
+            "hs_custom_meta": "_hs_first_post",
+            "hs_sharing": 1,
+            "hs_like_status": 1,
+            "attachment_url": "https:\/\/headstartdata.files.wordpress.com\/2017\/08\/paper.jpg",
+            "hs_old_id": 102
+        },
+        {
+            "post_title": "Home",
+            "post_content": "<p>Welcome to your new site! Follow these three steps to get going:<\/p><ol><li><em>Go to the Customizer.<\/em> Click on <strong>‘My Site’<\/strong> in the upper left corner to show your main controls. In the ‘Personalize’ section, click on the mini-button labeled <strong>‘Customize’<\/strong> to the right of ‘Themes.’<\/li><li><em>Get an overview with help.<\/em> Within the Customizer, and just above ‘Site Identity,’ click on the underlined, dark blue <strong>‘Need help setting up your site?’<\/strong> text button for a 5-minute tour of your new site and your theme.<\/li><li><em>Exit the Customizer.<\/em> If you've made any changes that you want to keep, click on the dark blue <strong>‘Save &amp; Publish’<\/strong> button in the upper left. Then click <strong>‘✕’<\/strong> in the upper left corner when you're ready to exit.<\/li><\/ol><p>For a starter guide to WordPress.com and to learn more about this theme go to:<\/p><p style=\"text-align: center;\"><a href=\"https:\/\/learn.wordpress.com/the-movie\">https:\/\/learn.wordpress.com\/the-movie<\/a><\/p><p>You're now ready to make the text on this page your own. Open the page editor by clicking on the <strong>‘Edit’<\/strong> button 👇below to change the text on this page.<\/p>",
+            "post_excerpt": "",
+            "post_status": "publish",
+            "menu_order": 1,
+            "comment_status": "closed",
+            "ping_status": "closed",
+            "post_type": "page",
+            "hs_custom_meta": "_hs_front_page",
+            "hs_sharing": 0,
+            "hs_like_status": 0,
+            "page_template": "default",
+            "hs_old_id": 100
+        },
+        {
+            "post_title": "Blog",
+            "post_content": "This is the page where users will find your site's blog",
+            "post_excerpt": "This is just a short excerpt about your blog.",
+            "post_status": "publish",
+            "menu_order": 2,
+            "comment_status": "closed",
+            "ping_status": "closed",
+            "post_type": "page",
+            "hs_custom_meta": "_hs_blog_page",
+            "hs_sharing": 0,
+            "hs_like_status": 0,
+            "hs_old_id": 101
+        }
+    ],
+    "menus": {
+        "social-media": {
+            "name": "Social Media",
+            "items": [
+                {
+                    "menu-item-title": "Facebook",
+                    "menu-item-db-id": 175,
+                    "menu-item-object-id": "175",
+                    "menu-item-object": "custom",
+                    "menu-item-type": "custom",
+                    "menu-item-status": "publish",
+                    "menu-item-position": 0,
+                    "menu-item-parent-id": "0",
+                    "menu-item-description": "",
+                    "menu-item-url": "http:\/\/www.facebook.com"
+                },
+                {
+                    "menu-item-title": "LinkedIn",
+                    "menu-item-db-id": 176,
+                    "menu-item-object-id": "176",
+                    "menu-item-object": "custom",
+                    "menu-item-type": "custom",
+                    "menu-item-status": "publish",
+                    "menu-item-position": 1,
+                    "menu-item-parent-id": "0",
+                    "menu-item-description": "",
+                    "menu-item-url": "http:\/\/www.linkedin.com"
+                },
+                {
+                    "menu-item-title": "Twitter",
+                    "menu-item-db-id": 177,
+                    "menu-item-object-id": "177",
+                    "menu-item-object": "custom",
+                    "menu-item-type": "custom",
+                    "menu-item-status": "publish",
+                    "menu-item-position": 2,
+                    "menu-item-parent-id": "0",
+                    "menu-item-description": "",
+                    "menu-item-url": "http:\/\/www.twitter.com"
+                },
+                {
+                    "menu-item-title": "Instagram",
+                    "menu-item-db-id": 178,
+                    "menu-item-object-id": "178",
+                    "menu-item-object": "custom",
+                    "menu-item-type": "custom",
+                    "menu-item-status": "publish",
+                    "menu-item-position": 3,
+                    "menu-item-parent-id": "0",
+                    "menu-item-description": "",
+                    "menu-item-url": "http:\/\/www.instagram.com"
+                }
+            ]
+        }
+    },
+    "images": [
+    	"https:\/\/headstartdata.files.wordpress.com\/2017\/08\/open.jpg",
+    	"https:\/\/headstartdata.files.wordpress.com\/2017\/08\/building-and-cloud.jpg",
+    	"https:\/\/headstartdata.files.wordpress.com\/2017\/09\/pattern-stardust.png",
+    	"https:\/\/headstartdata.files.wordpress.com\/2017\/09\/pattern-wood1.png",
+    	"https:\/\/headstartdata.files.wordpress.com\/2017\/09\/pattern-knit-feathers1.png"
+	]
+}
