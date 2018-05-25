@@ -36,6 +36,7 @@
     "wpackagist-plugin/minimum-viable-sharing-meta": "^0.0.4",
     "wpackagist-plugin/nginx-helper": "^1.9.10",
     "wpackagist-plugin/redis-cache": "^1.3.5",
+    "wpackagist-plugin/vaultpress": "^1.9.5",
     "wpackagist-plugin/wordfence": "^6.3.22",
     "wpackagist-plugin/wordpress-importer": "^0.6.4",
     "wpackagist-plugin/wp-ses": "^0.8"
@@ -47,7 +48,7 @@
     "installer-paths": {
       "web/app/mu-plugins/{$name}/": ["wpackagist-plugin/wordfence", "wpackagist-plugin/nginx-helper", "wpackagist-plugin/wp-ses", "humanmade/s3-uploads", "wpackagist-plugin/wordpress-importer"],
       "web/app/themes/{$name}/": ["type:wordpress-theme"],
-      "web/app/plugins/{$name}/": ["wpackagist-plugin/minimum-viable-sharing-meta", "wpackagist-plugin/jetpack", "wpackagist-plugin/akismet", "wpackagist-plugin/disable-comments", "wpackagist-plugin/donation-button"]
+      "web/app/plugins/{$name}/": ["wpackagist-plugin/minimum-viable-sharing-meta", "wpackagist-plugin/jetpack", "wpackagist-plugin/akismet", "wpackagist-plugin/disable-comments", "wpackagist-plugin/donation-button", "wpackagist-plugin/vaultpress"]
     },
     "dropin-paths": {
       "web/app": ["package:wpackagist-plugin/redis-cache:includes/object-cache.php", "package:frc/batcache:advanced-cache.php"]
