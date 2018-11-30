@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "186907c47642e71b88c7c16a2d2fb9d0",
+    "content-hash": "fd58561f17b33fa618c85380832557f2",
     "packages": [
         {
             "name": "aws/aws-sdk-php",
@@ -4274,15 +4274,15 @@
         },
         {
             "name": "wpackagist-plugin/redis-cache",
-            "version": "1.4.0",
+            "version": "1.3.8",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/redis-cache/",
-                "reference": "tags/1.4.0"
+                "reference": "tags/1.3.8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/redis-cache.1.4.0.zip",
+                "url": "https://downloads.wordpress.org/plugin/redis-cache.1.3.8.zip",
                 "reference": null,
                 "shasum": null
             },
