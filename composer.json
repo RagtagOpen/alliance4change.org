@@ -39,7 +39,8 @@
     "wpackagist-plugin/vaultpress": "^1.9.5",
     "wpackagist-plugin/wordfence": "^6.3.22",
     "wpackagist-plugin/wordpress-importer": "^0.6.4",
-    "wpackagist-plugin/wp-ses": "^0.8"
+    "wpackagist-plugin/wp-ses": "^0.8",
+    "wpackagist-plugin/wordpress-seo": "^9.6"
   },
   "require-dev": {
     "heroku/heroku-buildpack-php": "*"
