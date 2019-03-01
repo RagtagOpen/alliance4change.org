@@ -4,20 +4,20 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "8b82658802b39d24ffeb7c22d87be383",
+    "content-hash": "34ace2384c483034362c8efb8706e5e6",
     "packages": [
         {
             "name": "aws/aws-sdk-php",
-            "version": "3.87.16",
+            "version": "3.87.21",
             "source": {
                 "type": "git",
                 "url": "https://github.com/aws/aws-sdk-php.git",
-                "reference": "b6954b03e1c212b849ecf103e5f593b15b06b058"
+                "reference": "266641679eea15075ea13c088f9737460351f7ab"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/b6954b03e1c212b849ecf103e5f593b15b06b058",
-                "reference": "b6954b03e1c212b849ecf103e5f593b15b06b058",
+                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/266641679eea15075ea13c088f9737460351f7ab",
+                "reference": "266641679eea15075ea13c088f9737460351f7ab",
                 "shasum": ""
             },
             "require": {
@@ -86,7 +86,7 @@
                 "s3",
                 "sdk"
             ],
-            "time": "2019-02-21T19:16:06+00:00"
+            "time": "2019-02-28T20:02:04+00:00"
         },
         {
             "name": "composer/ca-bundle",
@@ -4400,15 +4400,15 @@
         },
         {
             "name": "wpackagist-plugin/wordpress-seo",
-            "version": "9.6",
+            "version": "9.7",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/wordpress-seo/",
-                "reference": "tags/9.6"
+                "reference": "tags/9.7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/wordpress-seo.9.6.zip",
+                "url": "https://downloads.wordpress.org/plugin/wordpress-seo.9.7.zip",
                 "reference": null,
                 "shasum": null
             },
