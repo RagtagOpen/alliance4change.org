@@ -8,16 +8,16 @@
     "packages": [
         {
             "name": "aws/aws-sdk-php",
-            "version": "3.93.2",
+            "version": "3.94.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/aws/aws-sdk-php.git",
-                "reference": "f0e3e528bb96c6602d7076d51dba312396cd2cc9"
+                "reference": "402a7e30c4ad979ca264079cd224984840ce6b37"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/f0e3e528bb96c6602d7076d51dba312396cd2cc9",
-                "reference": "f0e3e528bb96c6602d7076d51dba312396cd2cc9",
+                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/402a7e30c4ad979ca264079cd224984840ce6b37",
+                "reference": "402a7e30c4ad979ca264079cd224984840ce6b37",
                 "shasum": ""
             },
             "require": {
@@ -87,7 +87,7 @@
                 "s3",
                 "sdk"
             ],
-            "time": "2019-05-02T19:45:02+00:00"
+            "time": "2019-05-23T18:07:25+00:00"
         },
         {
             "name": "composer/ca-bundle",
@@ -722,16 +722,16 @@
         },
         {
             "name": "humanmade/s3-uploads",
-            "version": "v2.0.0",
+            "version": "2.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/humanmade/S3-Uploads.git",
-                "reference": "70d50a23b2665a02abd410647c887306decfe940"
+                "reference": "f17559cba87e0a0a0191a747f62c74dbde60208d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/humanmade/S3-Uploads/zipball/70d50a23b2665a02abd410647c887306decfe940",
-                "reference": "70d50a23b2665a02abd410647c887306decfe940",
+                "url": "https://api.github.com/repos/humanmade/S3-Uploads/zipball/f17559cba87e0a0a0191a747f62c74dbde60208d",
+                "reference": "f17559cba87e0a0a0191a747f62c74dbde60208d",
                 "shasum": ""
             },
             "require": {
@@ -755,7 +755,7 @@
             "keywords": [
                 "wordpress"
             ],
-            "time": "2018-03-13T15:10:11+00:00"
+            "time": "2019-04-16T05:09:44+00:00"
         },
         {
             "name": "johnpbloch/wordpress",
@@ -4203,15 +4203,15 @@
         },
         {
             "name": "wpackagist-plugin/akismet",
-            "version": "4.1.1",
+            "version": "4.1.2",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/akismet/",
-                "reference": "tags/4.1.1"
+                "reference": "tags/4.1.2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/akismet.4.1.1.zip",
+                "url": "https://downloads.wordpress.org/plugin/akismet.4.1.2.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -4323,15 +4323,15 @@
         },
         {
             "name": "wpackagist-plugin/redis-cache",
-            "version": "1.4.2",
+            "version": "1.4.3",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/redis-cache/",
-                "reference": "tags/1.4.2"
+                "reference": "tags/1.4.3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/redis-cache.1.4.2.zip",
+                "url": "https://downloads.wordpress.org/plugin/redis-cache.1.4.3.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -4445,16 +4445,16 @@
     "packages-dev": [
         {
             "name": "heroku/heroku-buildpack-php",
-            "version": "v154",
+            "version": "v155",
             "source": {
                 "type": "git",
                 "url": "https://github.com/heroku/heroku-buildpack-php.git",
-                "reference": "2625279c4b3caf5e2937308d07d4357b411d04d0"
+                "reference": "2b160ad695cbef0d0adbd459ec161584f05e30ce"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/heroku/heroku-buildpack-php/zipball/2625279c4b3caf5e2937308d07d4357b411d04d0",
-                "reference": "2625279c4b3caf5e2937308d07d4357b411d04d0",
+                "url": "https://api.github.com/repos/heroku/heroku-buildpack-php/zipball/2b160ad695cbef0d0adbd459ec161584f05e30ce",
+                "reference": "2b160ad695cbef0d0adbd459ec161584f05e30ce",
                 "shasum": ""
             },
             "bin": [
@@ -4485,7 +4485,7 @@
                 "nginx",
                 "php"
             ],
-            "time": "2019-04-04T22:05:24+00:00"
+            "time": "2019-05-09T21:07:40+00:00"
         }
     ],
     "aliases": [],
