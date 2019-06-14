@@ -8,16 +8,16 @@
     "packages": [
         {
             "name": "aws/aws-sdk-php",
-            "version": "3.99.3",
+            "version": "3.100.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/aws/aws-sdk-php.git",
-                "reference": "6857f5a612f2f32363d33b770d36501ed8d57116"
+                "reference": "daa94a5ac8931e151ccf0dcdce632d9b6a83a1fe"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/6857f5a612f2f32363d33b770d36501ed8d57116",
-                "reference": "6857f5a612f2f32363d33b770d36501ed8d57116",
+                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/daa94a5ac8931e151ccf0dcdce632d9b6a83a1fe",
+                "reference": "daa94a5ac8931e151ccf0dcdce632d9b6a83a1fe",
                 "shasum": ""
             },
             "require": {
@@ -87,7 +87,7 @@
                 "s3",
                 "sdk"
             ],
-            "time": "2019-06-06T18:46:45+00:00"
+            "time": "2019-06-13T19:22:34+00:00"
         },
         {
             "name": "composer/ca-bundle",
@@ -147,16 +147,16 @@
         },
         {
             "name": "composer/composer",
-            "version": "1.8.5",
+            "version": "1.8.6",
             "source": {
                 "type": "git",
                 "url": "https://github.com/composer/composer.git",
-                "reference": "949b116f9e7d98d8d276594fed74b580d125c0e6"
+                "reference": "19b5f66a0e233eb944f134df34091fe1c5dfcc11"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/composer/composer/zipball/949b116f9e7d98d8d276594fed74b580d125c0e6",
-                "reference": "949b116f9e7d98d8d276594fed74b580d125c0e6",
+                "url": "https://api.github.com/repos/composer/composer/zipball/19b5f66a0e233eb944f134df34091fe1c5dfcc11",
+                "reference": "19b5f66a0e233eb944f134df34091fe1c5dfcc11",
                 "shasum": ""
             },
             "require": {
@@ -223,7 +223,7 @@
                 "dependency",
                 "package"
             ],
-            "time": "2019-04-09T15:46:48+00:00"
+            "time": "2019-06-11T13:03:06+00:00"
         },
         {
             "name": "composer/installers",
@@ -4445,16 +4445,16 @@
     "packages-dev": [
         {
             "name": "heroku/heroku-buildpack-php",
-            "version": "v156",
+            "version": "v157",
             "source": {
                 "type": "git",
                 "url": "https://github.com/heroku/heroku-buildpack-php.git",
-                "reference": "506b009bf2235b7579755fe43fd3c6788504e804"
+                "reference": "62a691bf5937d35a7236c581734352208037d710"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/heroku/heroku-buildpack-php/zipball/506b009bf2235b7579755fe43fd3c6788504e804",
-                "reference": "506b009bf2235b7579755fe43fd3c6788504e804",
+                "url": "https://api.github.com/repos/heroku/heroku-buildpack-php/zipball/62a691bf5937d35a7236c581734352208037d710",
+                "reference": "62a691bf5937d35a7236c581734352208037d710",
                 "shasum": ""
             },
             "bin": [
@@ -4485,7 +4485,7 @@
                 "nginx",
                 "php"
             ],
-            "time": "2019-05-30T21:39:21+00:00"
+            "time": "2019-06-13T20:23:59+00:00"
         }
     ],
     "aliases": [],
