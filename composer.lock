@@ -8,16 +8,16 @@
     "packages": [
         {
             "name": "aws/aws-sdk-php",
-            "version": "3.107.3",
+            "version": "3.107.8",
             "source": {
                 "type": "git",
                 "url": "https://github.com/aws/aws-sdk-php.git",
-                "reference": "2ea91e93b9b1d9b01055896ac5e4f2e8448d141f"
+                "reference": "b4cf7c02557e8443ad4f058f6d95c6fbe88770f7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/2ea91e93b9b1d9b01055896ac5e4f2e8448d141f",
-                "reference": "2ea91e93b9b1d9b01055896ac5e4f2e8448d141f",
+                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/b4cf7c02557e8443ad4f058f6d95c6fbe88770f7",
+                "reference": "b4cf7c02557e8443ad4f058f6d95c6fbe88770f7",
                 "shasum": ""
             },
             "require": {
@@ -87,7 +87,7 @@
                 "s3",
                 "sdk"
             ],
-            "time": "2019-07-18T19:28:55+00:00"
+            "time": "2019-07-25T18:09:11+00:00"
         },
         {
             "name": "composer/ca-bundle",
@@ -4227,15 +4227,15 @@
         },
         {
             "name": "wpackagist-plugin/disable-comments",
-            "version": "1.9.0",
+            "version": "1.10.2",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/disable-comments/",
-                "reference": "tags/1.9.0"
+                "reference": "trunk"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/disable-comments.1.9.0.zip",
+                "url": "https://downloads.wordpress.org/plugin/disable-comments.zip?timestamp=1563798431",
                 "reference": null,
                 "shasum": null
             },
