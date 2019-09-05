@@ -8,16 +8,16 @@
     "packages": [
         {
             "name": "aws/aws-sdk-php",
-            "version": "3.110.6",
+            "version": "3.110.9",
             "source": {
                 "type": "git",
                 "url": "https://github.com/aws/aws-sdk-php.git",
-                "reference": "428152b84c4dc668738e98d266d88670064d31ea"
+                "reference": "25fb32317e4dbd2b34caca01ed940cce12f7362c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/428152b84c4dc668738e98d266d88670064d31ea",
-                "reference": "428152b84c4dc668738e98d266d88670064d31ea",
+                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/25fb32317e4dbd2b34caca01ed940cce12f7362c",
+                "reference": "25fb32317e4dbd2b34caca01ed940cce12f7362c",
                 "shasum": ""
             },
             "require": {
@@ -87,7 +87,7 @@
                 "s3",
                 "sdk"
             ],
-            "time": "2019-08-29T18:08:32+00:00"
+            "time": "2019-09-04T18:17:50+00:00"
         },
         {
             "name": "composer/ca-bundle",
@@ -765,22 +765,22 @@
         },
         {
             "name": "johnpbloch/wordpress",
-            "version": "4.9.10",
+            "version": "4.9.11",
             "source": {
                 "type": "git",
                 "url": "https://github.com/johnpbloch/wordpress.git",
-                "reference": "fa10404bdcf045704f7ff519f483af6acd4cf5ef"
+                "reference": "8b4fce1e9db12588e7e4daf7fdf01fc4e0a60605"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/johnpbloch/wordpress/zipball/fa10404bdcf045704f7ff519f483af6acd4cf5ef",
-                "reference": "fa10404bdcf045704f7ff519f483af6acd4cf5ef",
+                "url": "https://api.github.com/repos/johnpbloch/wordpress/zipball/8b4fce1e9db12588e7e4daf7fdf01fc4e0a60605",
+                "reference": "8b4fce1e9db12588e7e4daf7fdf01fc4e0a60605",
                 "shasum": ""
             },
             "require": {
-                "johnpbloch/wordpress-core": "4.9.10",
+                "johnpbloch/wordpress-core": "4.9.11",
                 "johnpbloch/wordpress-core-installer": "^1.0",
-                "php": ">=5.3.2"
+                "php": ">=5.6.20"
             },
             "type": "package",
             "notification-url": "https://packagist.org/downloads/",
@@ -793,34 +793,34 @@
                     "homepage": "http://wordpress.org/about/"
                 }
             ],
-            "description": "WordPress is web software you can use to create a beautiful website or blog.",
+            "description": "WordPress is open source software you can use to create a beautiful website, blog, or app.",
             "homepage": "http://wordpress.org/",
             "keywords": [
                 "blog",
                 "cms",
                 "wordpress"
             ],
-            "time": "2019-03-13T01:13:10+00:00"
+            "time": "2019-09-05T01:16:49+00:00"
         },
         {
             "name": "johnpbloch/wordpress-core",
-            "version": "4.9.10",
+            "version": "4.9.11",
             "source": {
                 "type": "git",
                 "url": "https://github.com/johnpbloch/wordpress-core.git",
-                "reference": "06dad62aa1ab1ef215034fb07d6aec4a68072313"
+                "reference": "b759041f9d1130bc262d33f55c30863a632d4a21"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/johnpbloch/wordpress-core/zipball/06dad62aa1ab1ef215034fb07d6aec4a68072313",
-                "reference": "06dad62aa1ab1ef215034fb07d6aec4a68072313",
+                "url": "https://api.github.com/repos/johnpbloch/wordpress-core/zipball/b759041f9d1130bc262d33f55c30863a632d4a21",
+                "reference": "b759041f9d1130bc262d33f55c30863a632d4a21",
                 "shasum": ""
             },
             "require": {
                 "php": ">=5.3.2"
             },
             "provide": {
-                "wordpress/core-implementation": "4.9.10"
+                "wordpress/core-implementation": "4.9.11"
             },
             "type": "wordpress-core",
             "notification-url": "https://packagist.org/downloads/",
@@ -833,14 +833,14 @@
                     "homepage": "http://wordpress.org/about/"
                 }
             ],
-            "description": "WordPress is web software you can use to create a beautiful website or blog.",
+            "description": "WordPress is open source software you can use to create a beautiful website, blog, or app.",
             "homepage": "http://wordpress.org/",
             "keywords": [
                 "blog",
                 "cms",
                 "wordpress"
             ],
-            "time": "2019-03-13T01:13:06+00:00"
+            "time": "2019-09-05T01:16:45+00:00"
         },
         {
             "name": "johnpbloch/wordpress-core-installer",
@@ -4451,16 +4451,16 @@
     "packages-dev": [
         {
             "name": "heroku/heroku-buildpack-php",
-            "version": "v160",
+            "version": "v161",
             "source": {
                 "type": "git",
                 "url": "https://github.com/heroku/heroku-buildpack-php.git",
-                "reference": "c257f995f3c02525befd3986cce2cfa324bd1ea2"
+                "reference": "aa8752d24d3c834556aa3f4df04db49a8d765e72"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/heroku/heroku-buildpack-php/zipball/c257f995f3c02525befd3986cce2cfa324bd1ea2",
-                "reference": "c257f995f3c02525befd3986cce2cfa324bd1ea2",
+                "url": "https://api.github.com/repos/heroku/heroku-buildpack-php/zipball/aa8752d24d3c834556aa3f4df04db49a8d765e72",
+                "reference": "aa8752d24d3c834556aa3f4df04db49a8d765e72",
                 "shasum": ""
             },
             "bin": [
@@ -4491,7 +4491,7 @@
                 "nginx",
                 "php"
             ],
-            "time": "2019-08-23T15:59:03+00:00"
+            "time": "2019-08-30T20:37:38+00:00"
         }
     ],
     "aliases": [],
