@@ -8,16 +8,16 @@
     "packages": [
         {
             "name": "aws/aws-sdk-php",
-            "version": "3.112.9",
+            "version": "3.112.14",
             "source": {
                 "type": "git",
                 "url": "https://github.com/aws/aws-sdk-php.git",
-                "reference": "224955fcb7ca9edc8de3e4147c0b180aeaee5a48"
+                "reference": "491960b26d7c02d8d9c9c998646d25a99e10fd16"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/224955fcb7ca9edc8de3e4147c0b180aeaee5a48",
-                "reference": "224955fcb7ca9edc8de3e4147c0b180aeaee5a48",
+                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/491960b26d7c02d8d9c9c998646d25a99e10fd16",
+                "reference": "491960b26d7c02d8d9c9c998646d25a99e10fd16",
                 "shasum": ""
             },
             "require": {
@@ -87,7 +87,7 @@
                 "s3",
                 "sdk"
             ],
-            "time": "2019-09-26T18:13:00+00:00"
+            "time": "2019-10-03T18:12:08+00:00"
         },
         {
             "name": "composer/ca-bundle",
@@ -4451,16 +4451,16 @@
     "packages-dev": [
         {
             "name": "heroku/heroku-buildpack-php",
-            "version": "v161",
+            "version": "v163",
             "source": {
                 "type": "git",
                 "url": "https://github.com/heroku/heroku-buildpack-php.git",
-                "reference": "aa8752d24d3c834556aa3f4df04db49a8d765e72"
+                "reference": "dbfaecee08f1286c095c69432e71d1a0b6c7df68"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/heroku/heroku-buildpack-php/zipball/aa8752d24d3c834556aa3f4df04db49a8d765e72",
-                "reference": "aa8752d24d3c834556aa3f4df04db49a8d765e72",
+                "url": "https://api.github.com/repos/heroku/heroku-buildpack-php/zipball/dbfaecee08f1286c095c69432e71d1a0b6c7df68",
+                "reference": "dbfaecee08f1286c095c69432e71d1a0b6c7df68",
                 "shasum": ""
             },
             "bin": [
@@ -4491,7 +4491,7 @@
                 "nginx",
                 "php"
             ],
-            "time": "2019-08-30T20:37:38+00:00"
+            "time": "2019-10-01T11:14:51+00:00"
         }
     ],
     "aliases": [],
