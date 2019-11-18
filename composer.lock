@@ -8,16 +8,16 @@
     "packages": [
         {
             "name": "aws/aws-sdk-php",
-            "version": "3.117.1",
+            "version": "3.117.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/aws/aws-sdk-php.git",
-                "reference": "6951cd08326d939f1fd1097a490fccb9751a59d7"
+                "reference": "3dc81df70f1cdf2842c85915548bffb870c1e1da"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/6951cd08326d939f1fd1097a490fccb9751a59d7",
-                "reference": "6951cd08326d939f1fd1097a490fccb9751a59d7",
+                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/3dc81df70f1cdf2842c85915548bffb870c1e1da",
+                "reference": "3dc81df70f1cdf2842c85915548bffb870c1e1da",
                 "shasum": ""
             },
             "require": {
@@ -87,7 +87,7 @@
                 "s3",
                 "sdk"
             ],
-            "time": "2019-11-14T19:27:06+00:00"
+            "time": "2019-11-15T19:21:02+00:00"
         },
         {
             "name": "composer/ca-bundle",
@@ -729,16 +729,16 @@
         },
         {
             "name": "humanmade/s3-uploads",
-            "version": "2.1.0",
+            "version": "2.2.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/humanmade/S3-Uploads.git",
-                "reference": "f17559cba87e0a0a0191a747f62c74dbde60208d"
+                "reference": "bc1df42517c1ccbfbfc61fe4802008d22948a9b8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/humanmade/S3-Uploads/zipball/f17559cba87e0a0a0191a747f62c74dbde60208d",
-                "reference": "f17559cba87e0a0a0191a747f62c74dbde60208d",
+                "url": "https://api.github.com/repos/humanmade/S3-Uploads/zipball/bc1df42517c1ccbfbfc61fe4802008d22948a9b8",
+                "reference": "bc1df42517c1ccbfbfc61fe4802008d22948a9b8",
                 "shasum": ""
             },
             "require": {
@@ -762,7 +762,7 @@
             "keywords": [
                 "wordpress"
             ],
-            "time": "2019-04-16T05:09:44+00:00"
+            "time": "2019-11-18T16:44:45+00:00"
         },
         {
             "name": "johnpbloch/wordpress",
@@ -4330,15 +4330,15 @@
         },
         {
             "name": "wpackagist-plugin/redis-cache",
-            "version": "1.5.1",
+            "version": "1.5.2",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/redis-cache/",
-                "reference": "tags/1.5.1"
+                "reference": "tags/1.5.2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/redis-cache.1.5.1.zip",
+                "url": "https://downloads.wordpress.org/plugin/redis-cache.1.5.2.zip",
                 "reference": null,
                 "shasum": null
             },
